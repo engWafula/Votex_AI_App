@@ -83,7 +83,7 @@ const handleSubmit = async(e)=>{
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch("https://votex-ai-companion.onrender.com",{
+  const response = await fetch("https://votex.onrender.com",{
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
